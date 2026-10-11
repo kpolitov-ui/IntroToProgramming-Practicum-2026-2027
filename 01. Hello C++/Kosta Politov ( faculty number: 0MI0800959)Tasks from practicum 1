@@ -1,0 +1,113 @@
+#include <iostream>
+
+int main()
+{
+    // TASK 1:
+    //std::cout << "Hello, C++\n";
+    //unsigned apples, pears, bananas;
+    //std::cin >> apples >> pears >> bananas;
+    //std::cout << "Don't forget to buy " << apples << " apples, " << pears << " pears" << ", and " << bananas << " bananas";
+
+    // TASK 2:
+    //unsigned lenght, width;
+    //std::cin >> lenght >> width;
+    //double perimeter = 2 * (lenght + width);
+    //double area = lenght * width;
+    //std::cout << "Perimeter = " << perimeter << "\n" << "Area = " << area;
+
+    //TASK 3:
+    //double sumInEuro;
+    //std::cin >> sumInEuro;
+    //const double sumInDollars = 1.1 * sumInEuro;
+    //const double sumInYeni = 145 * sumInEuro;
+    //std::cout << "dollars = " << sumInDollars << "\n" << "yeni = " << sumInYeni;
+
+    //TASK 4:
+    //int numberOne, numberTwo;
+    //std::cin >> numberOne >> numberTwo;
+    //bool result = numberOne % numberTwo;
+    //if (result == 0) {
+    //    std::cout << "true";
+    //}
+    //else {
+    //    std::cout << "false";
+    //}
+
+    //TASK 5:
+    //unsigned numberOne, numberTwo, numberThree;
+    //std::cin >> numberOne >> numberTwo >> numberThree;
+    //unsigned finalNumber = (numberOne * 100 + numberTwo * 10 + numberThree);
+    //std::cout << finalNumber;
+
+    //TASK 6:
+    //unsigned threeDigitNumber;
+    //std::cin >> threeDigitNumber;
+    //unsigned units = threeDigitNumber % 10;
+    //unsigned tens = (threeDigitNumber / 10) % 10;
+    //unsigned hundreds = threeDigitNumber / 100;
+    //unsigned sum = units + tens + hundreds;
+    //std::cout << "units = " << units << "\n" << "tens = " << tens << "\n" << "hundreds = " << hundreds << "\n" << "sum = " << sum;
+
+    //TASK 7:
+    //unsigned x, y;
+    //std::cin >> x >> y;
+    //unsigned prod = x * y;
+    //unsigned lastDigit = prod % 10;
+    //bool isOdd = lastDigit % 2;
+    //std::cout << "Prod: " << prod << "\n" << "last digit: " << lastDigit << "\n" << "Is odd: " << std::boolalpha << isOdd;
+
+	//TASK 8:
+	//unsigned eightDigitNumber;
+	//std::cin >> eightDigitNumber;
+	//unsigned firstFiveDigits = eightDigitNumber / 1000;
+	//unsigned lastThreeDigits = eightDigitNumber % 1000; 
+	//
+	//if (lastThreeDigits < 10) {
+	//	std::cout << "*****" << "00" << lastThreeDigits;
+	//} else if (lastThreeDigits < 100) {
+	//	std::cout << "*****" << "0" << lastThreeDigits;
+ //   }
+ //   else {
+	//	std::cout << "*****" << lastThreeDigits;
+ //   }
+    
+	//TASK 9:
+ //   const int secondsPerDay = 86400;
+ //   const int secondsPerHour = 3600;
+ //   const int secondsPerMinute = 60;
+
+	//std::cout << "Enter the total number of seconds: ";
+ //   int total;
+	//std::cin >> total;
+	//std::cout << "Days: " << total / secondsPerDay << "\n";
+	//std::cout << "Hours: " << (total % secondsPerDay) / secondsPerHour << "\n";
+	//std::cout << "Minutes: " << (total % secondsPerHour) / secondsPerMinute << "\n";
+	//std::cout << "Seconds: " << total % secondsPerMinute << "\n";
+
+    //TASK 10:
+    //double a, b, c, d;
+    //std::cin >> a >> b;
+    //std::cin >> c >> d;
+
+    //if (a <= d && c <= b) {
+    //    std::cout << "true";
+    //}
+    //else {
+    //    std::cout << "false";
+    //}
+
+    //BONUS TASK 1:
+	//std::cout << "Enter a four-digit number: ";
+	//int number;
+	//std::cin >> number;
+	//int firstDigit = number / 1000;
+	//int lastDigit = number % 10;
+	//int secondDigit = (number / 100) % 10;
+	//int thirdDigit = (number / 10) % 10;
+
+	//if (firstDigit == lastDigit && secondDigit == thirdDigit) {
+	//	std::cout << "TRUE";
+	//}
+	//else {
+	//	std::cout << "FALSE";
+	//}
